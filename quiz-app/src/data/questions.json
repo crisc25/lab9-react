@@ -1,0 +1,565 @@
+[
+  {
+    "question": "Ce este JavaScript?",
+    "category": "JavaScript",
+    "difficulty": "easy",
+    "answers": ["Limbaj de programare", "Bază de date", "Sistem de operare", "Editor de text"],
+    "correctAnswer": "Limbaj de programare"
+  },
+  {
+    "question": "Cum declari o variabilă în JavaScript?",
+    "category": "JavaScript",
+    "difficulty": "easy",
+    "answers": ["let", "var", "const", "Toate variantele"],
+    "correctAnswer": "Toate variantele"
+  },
+  {
+    "question": "Ce tip de date este NaN?",
+    "category": "JavaScript",
+    "difficulty": "medium",
+    "answers": ["Number", "String", "Boolean", "Object"],
+    "correctAnswer": "Number"
+  },
+  {
+    "question": "Ce face operatorul === ?",
+    "category": "JavaScript",
+    "difficulty": "easy",
+    "answers": ["Compară valoarea și tipul", "Compară doar valoarea", "Atribuie valoare", "Compară doar tipul"],
+    "correctAnswer": "Compară valoarea și tipul"
+  },
+  {
+    "question": "Ce este un array?",
+    "category": "JavaScript",
+    "difficulty": "easy",
+    "answers": ["O listă de valori", "O funcție", "Un obiect special", "Un string"],
+    "correctAnswer": "O listă de valori"
+  },
+  {
+    "question": "Cum accesezi primul element dintr-un array?",
+    "category": "JavaScript",
+    "difficulty": "easy",
+    "answers": ["array[0]", "array[1]", "array.first()", "array.get(0)"],
+    "correctAnswer": "array[0]"
+  },
+  {
+    "question": "Ce face metoda map()?",
+    "category": "JavaScript",
+    "difficulty": "medium",
+    "answers": ["Transformă elementele unui array", "Șterge elemente", "Filtrează elemente", "Sortează array-ul"],
+    "correctAnswer": "Transformă elementele unui array"
+  },
+  {
+    "question": "Ce face metoda filter()?",
+    "category": "JavaScript",
+    "difficulty": "medium",
+    "answers": ["Selectează elemente pe baza unei condiții", "Transformă elemente", "Șterge tot array-ul", "Sortează array-ul"],
+    "correctAnswer": "Selectează elemente pe baza unei condiții"
+  },
+  {
+    "question": "Ce este o funcție?",
+    "category": "JavaScript",
+    "difficulty": "easy",
+    "answers": ["Un bloc de cod reutilizabil", "Un tip de variabilă", "Un obiect", "Un string"],
+    "correctAnswer": "Un bloc de cod reutilizabil"
+  },
+  {
+    "question": "Ce este hoisting?",
+    "category": "JavaScript",
+    "difficulty": "hard",
+    "answers": ["Ridicarea declarațiilor la începutul scope-ului", "Ștergerea variabilelor", "Mutarea codului în alt fișier", "Execuția codului în buclă"],
+    "correctAnswer": "Ridicarea declarațiilor la începutul scope-ului"
+  },
+  {
+    "question": "Ce este DOM?",
+    "category": "JavaScript",
+    "difficulty": "medium",
+    "answers": ["Document Object Model", "Data Object Manager", "Document Order Method", "Display Object Map"],
+    "correctAnswer": "Document Object Model"
+  },
+  {
+    "question": "Ce metodă selectează un element după id?",
+    "category": "JavaScript",
+    "difficulty": "easy",
+    "answers": ["getElementById", "querySelectorAll", "getElementsByClassName", "findById"],
+    "correctAnswer": "getElementById"
+  },
+  {
+    "question": "Ce este let?",
+    "category": "JavaScript",
+    "difficulty": "easy",
+    "answers": ["O variabilă cu scope de bloc", "O funcție", "Un obiect", "Un tip de date"],
+    "correctAnswer": "O variabilă cu scope de bloc"
+  },
+  {
+    "question": "Ce este const?",
+    "category": "JavaScript",
+    "difficulty": "easy",
+    "answers": ["O constantă", "O funcție", "Un obiect", "Un string"],
+    "correctAnswer": "O constantă"
+  },
+  {
+    "question": "Ce face JSON.parse()?",
+    "category": "JavaScript",
+    "difficulty": "medium",
+    "answers": ["Transformă JSON în obiect", "Transformă obiect în JSON", "Șterge JSON", "Creează array"],
+    "correctAnswer": "Transformă JSON în obiect"
+  },
+  {
+    "question": "Ce face JSON.stringify()?",
+    "category": "JavaScript",
+    "difficulty": "medium",
+    "answers": ["Transformă obiect în JSON", "Transformă JSON în obiect", "Șterge obiect", "Creează array"],
+    "correctAnswer": "Transformă obiect în JSON"
+  },
+  {
+    "question": "Ce este o promisiune (Promise)?",
+    "category": "JavaScript",
+    "difficulty": "hard",
+    "answers": ["Un obiect pentru operații asincrone", "Un tip de variabilă", "Un array", "Un string"],
+    "correctAnswer": "Un obiect pentru operații asincrone"
+  },
+  {
+    "question": "Ce face async/await?",
+    "category": "JavaScript",
+    "difficulty": "hard",
+    "answers": ["Simplifică lucrul cu promisiuni", "Creează variabile", "Șterge funcții", "Transformă date"],
+    "correctAnswer": "Simplifică lucrul cu promisiuni"
+  },
+  {
+    "question": "Ce este typeof?",
+    "category": "JavaScript",
+    "difficulty": "easy",
+    "answers": ["Operator pentru tipul variabilei", "Funcție de sortare", "Metodă array", "Operator matematic"],
+    "correctAnswer": "Operator pentru tipul variabilei"
+  },
+  {
+    "question": "Ce returnează typeof null?",
+    "category": "JavaScript",
+    "difficulty": "hard",
+    "answers": ["object", "null", "undefined", "string"],
+    "correctAnswer": "object"
+  }
+,
+
+
+  {
+    "question": "Ce este TypeScript?",
+    "category": "TypeScript",
+    "difficulty": "easy",
+    "answers": ["Superset al JavaScript", "Limbaj de bază de date", "Framework JS", "Editor"],
+    "correctAnswer": "Superset al JavaScript"
+  },
+  {
+    "question": "Ce adaugă TypeScript peste JavaScript?",
+    "category": "TypeScript",
+    "difficulty": "easy",
+    "answers": ["Tipuri statice", "HTML", "CSS", "Server"],
+    "correctAnswer": "Tipuri statice"
+  },
+  {
+    "question": "Cum declari un tip pentru o variabilă?",
+    "category": "TypeScript",
+    "difficulty": "easy",
+    "answers": ["let x: number", "let x = number", "number x =", "x:number()"],
+    "correctAnswer": "let x: number"
+  },
+  {
+    "question": "Ce tip reprezintă textul?",
+    "category": "TypeScript",
+    "difficulty": "easy",
+    "answers": ["string", "text", "char", "word"],
+    "correctAnswer": "string"
+  },
+  {
+    "question": "Ce tip reprezintă un număr?",
+    "category": "TypeScript",
+    "difficulty": "easy",
+    "answers": ["number", "int", "float", "numeric"],
+    "correctAnswer": "number"
+  },
+  {
+    "question": "Ce este 'any'?",
+    "category": "TypeScript",
+    "difficulty": "medium",
+    "answers": ["Orice tip", "Doar string", "Doar number", "Null"],
+    "correctAnswer": "Orice tip"
+  },
+  {
+    "question": "Ce este 'unknown'?",
+    "category": "TypeScript",
+    "difficulty": "medium",
+    "answers": ["Tip sigur necunoscut", "Orice tip", "Null", "Boolean"],
+    "correctAnswer": "Tip sigur necunoscut"
+  },
+  {
+    "question": "Ce este o interfață (interface)?",
+    "category": "TypeScript",
+    "difficulty": "medium",
+    "answers": ["Definește structura unui obiect", "Funcție", "Array", "Clasă"],
+    "correctAnswer": "Definește structura unui obiect"
+  },
+  {
+    "question": "Cum definești o interfață?",
+    "category": "TypeScript",
+    "difficulty": "medium",
+    "answers": ["interface User {}", "class User {}", "type User()", "let User = {}"],
+    "correctAnswer": "interface User {}"
+  },
+  {
+    "question": "Ce este un tip union?",
+    "category": "TypeScript",
+    "difficulty": "medium",
+    "answers": ["Mai multe tipuri posibile", "Un singur tip", "Tip numeric", "Tip boolean"],
+    "correctAnswer": "Mai multe tipuri posibile"
+  },
+  {
+    "question": "Cum scrii un union type?",
+    "category": "TypeScript",
+    "difficulty": "medium",
+    "answers": ["string | number", "string & number", "string, number", "string:number"],
+    "correctAnswer": "string | number"
+  },
+  {
+    "question": "Ce este 'type'?",
+    "category": "TypeScript",
+    "difficulty": "medium",
+    "answers": ["Alias pentru tipuri", "Funcție", "Clasă", "Variabilă"],
+    "correctAnswer": "Alias pentru tipuri"
+  },
+  {
+    "question": "Ce este un enum?",
+    "category": "TypeScript",
+    "difficulty": "medium",
+    "answers": ["Set de valori constante", "Funcție", "Array", "Object"],
+    "correctAnswer": "Set de valori constante"
+  },
+  {
+    "question": "Cum declari un enum?",
+    "category": "TypeScript",
+    "difficulty": "medium",
+    "answers": ["enum Color {}", "const enum {}", "type enum {}", "class enum {}"],
+    "correctAnswer": "enum Color {}"
+  },
+  {
+    "question": "Ce face compilatorul TypeScript?",
+    "category": "TypeScript",
+    "difficulty": "easy",
+    "answers": ["Transformă TS în JS", "Rulează cod", "Creează baze de date", "Face styling"],
+    "correctAnswer": "Transformă TS în JS"
+  },
+  {
+    "question": "Care extensie au fișierele TypeScript?",
+    "category": "TypeScript",
+    "difficulty": "easy",
+    "answers": [".ts", ".js", ".json", ".html"],
+    "correctAnswer": ".ts"
+  },
+  {
+    "question": "Ce este strict mode în TypeScript?",
+    "category": "TypeScript",
+    "difficulty": "hard",
+    "answers": ["Verificări stricte de tip", "Mod rapid", "Mod vizual", "Mod debug"],
+    "correctAnswer": "Verificări stricte de tip"
+  },
+  {
+    "question": "Ce este 'readonly'?",
+    "category": "TypeScript",
+    "difficulty": "medium",
+    "answers": ["Proprietate care nu poate fi modificată", "Variabilă globală", "Funcție", "Tip string"],
+    "correctAnswer": "Proprietate care nu poate fi modificată"
+  },
+  {
+    "question": "Ce este generics?",
+    "category": "TypeScript",
+    "difficulty": "hard",
+    "answers": ["Tipuri reutilizabile", "Funcții simple", "Variabile", "Array"],
+    "correctAnswer": "Tipuri reutilizabile"
+  },
+  {
+    "question": "Cum definești un generic?",
+    "category": "TypeScript",
+    "difficulty": "hard",
+    "answers": ["function test<T>()", "function test()", "generic test()", "test<T> function"],
+    "correctAnswer": "function test<T>()"
+  },
+  {
+  "question": "Ce este SQL?",
+  "category": "SQL",
+  "difficulty": "easy",
+  "answers": ["Limbaj pentru baze de date", "Limbaj de programare frontend", "Framework JS", "Editor"],
+  "correctAnswer": "Limbaj pentru baze de date"
+},
+{
+  "question": "Ce înseamnă SQL?",
+  "category": "SQL",
+  "difficulty": "easy",
+  "answers": ["Structured Query Language", "Simple Query Language", "System Query Logic", "Server Query Language"],
+  "correctAnswer": "Structured Query Language"
+},
+{
+  "question": "Ce face SELECT?",
+  "category": "SQL",
+  "difficulty": "easy",
+  "answers": ["Extrage date", "Șterge date", "Adaugă date", "Modifică date"],
+  "correctAnswer": "Extrage date"
+},
+{
+  "question": "Ce face INSERT?",
+  "category": "SQL",
+  "difficulty": "easy",
+  "answers": ["Adaugă date", "Șterge date", "Citește date", "Modifică date"],
+  "correctAnswer": "Adaugă date"
+},
+{
+  "question": "Ce face DELETE?",
+  "category": "SQL",
+  "difficulty": "easy",
+  "answers": ["Șterge date", "Adaugă date", "Selectează date", "Modifică date"],
+  "correctAnswer": "Șterge date"
+},
+{
+  "question": "Ce face UPDATE?",
+  "category": "SQL",
+  "difficulty": "easy",
+  "answers": ["Modifică date", "Șterge date", "Adaugă date", "Citește date"],
+  "correctAnswer": "Modifică date"
+},
+{
+  "question": "Ce este o tabelă?",
+  "category": "SQL",
+  "difficulty": "easy",
+  "answers": ["Colecție de rânduri și coloane", "Un index", "Un query", "Un server"],
+  "correctAnswer": "Colecție de rânduri și coloane"
+},
+{
+  "question": "Ce este o coloană?",
+  "category": "SQL",
+  "difficulty": "easy",
+  "answers": ["Un atribut al tabelei", "Un rând", "Un query", "O bază de date"],
+  "correctAnswer": "Un atribut al tabelei"
+},
+{
+  "question": "Ce este o cheie primară?",
+  "category": "SQL",
+  "difficulty": "medium",
+  "answers": ["Identifică unic un rând", "Șterge date", "Leagă tabele", "Creează tabele"],
+  "correctAnswer": "Identifică unic un rând"
+},
+{
+  "question": "Ce este o cheie externă?",
+  "category": "SQL",
+  "difficulty": "medium",
+  "answers": ["Leagă două tabele", "Șterge date", "Adaugă date", "Creează tabele"],
+  "correctAnswer": "Leagă două tabele"
+},
+{
+  "question": "Ce face WHERE?",
+  "category": "SQL",
+  "difficulty": "easy",
+  "answers": ["Filtrează date", "Adaugă date", "Șterge tabele", "Creează tabele"],
+  "correctAnswer": "Filtrează date"
+},
+{
+  "question": "Ce face ORDER BY?",
+  "category": "SQL",
+  "difficulty": "medium",
+  "answers": ["Sortează date", "Filtrează date", "Șterge date", "Adaugă date"],
+  "correctAnswer": "Sortează date"
+},
+{
+  "question": "Ce face GROUP BY?",
+  "category": "SQL",
+  "difficulty": "medium",
+  "answers": ["Grupează date", "Șterge date", "Adaugă date", "Filtrează date"],
+  "correctAnswer": "Grupează date"
+},
+{
+  "question": "Ce este JOIN?",
+  "category": "SQL",
+  "difficulty": "medium",
+  "answers": ["Combină tabele", "Șterge tabele", "Creează tabele", "Filtrează date"],
+  "correctAnswer": "Combină tabele"
+},
+{
+  "question": "Ce face INNER JOIN?",
+  "category": "SQL",
+  "difficulty": "medium",
+  "answers": ["Returnează rânduri comune", "Toate rândurile", "Șterge date", "Filtrează date"],
+  "correctAnswer": "Returnează rânduri comune"
+},
+{
+  "question": "Ce face LEFT JOIN?",
+  "category": "SQL",
+  "difficulty": "medium",
+  "answers": ["Toate din stânga + potriviri", "Doar potriviri", "Șterge date", "Filtrează date"],
+  "correctAnswer": "Toate din stânga + potriviri"
+},
+{
+  "question": "Ce este COUNT()?",
+  "category": "SQL",
+  "difficulty": "easy",
+  "answers": ["Numără rânduri", "Adaugă date", "Șterge date", "Sortează date"],
+  "correctAnswer": "Numără rânduri"
+},
+{
+  "question": "Ce este AVG()?",
+  "category": "SQL",
+  "difficulty": "easy",
+  "answers": ["Media valorilor", "Suma", "Numărul", "Maximul"],
+  "correctAnswer": "Media valorilor"
+},
+{
+  "question": "Ce este MAX()?",
+  "category": "SQL",
+  "difficulty": "easy",
+  "answers": ["Valoarea maximă", "Valoarea minimă", "Media", "Numărul"],
+  "correctAnswer": "Valoarea maximă"
+},
+{
+  "question": "Ce este MIN()?",
+  "category": "SQL",
+  "difficulty": "easy",
+  "answers": ["Valoarea minimă", "Valoarea maximă", "Media", "Numărul"],
+  "correctAnswer": "Valoarea minimă"
+},
+{
+  "question": "Ce este Java?",
+  "category": "Java",
+  "difficulty": "easy",
+  "answers": ["Limbaj de programare", "Bază de date", "Framework JS", "Editor"],
+  "correctAnswer": "Limbaj de programare"
+},
+{
+  "question": "Ce tip de limbaj este Java?",
+  "category": "Java",
+  "difficulty": "easy",
+  "answers": ["Orientat pe obiecte", "Funcțional", "Markup", "Query"],
+  "correctAnswer": "Orientat pe obiecte"
+},
+{
+  "question": "Ce extensie au fișierele Java?",
+  "category": "Java",
+  "difficulty": "easy",
+  "answers": [".java", ".js", ".class", ".txt"],
+  "correctAnswer": ".java"
+},
+{
+  "question": "Ce face JVM?",
+  "category": "Java",
+  "difficulty": "medium",
+  "answers": ["Execută bytecode", "Scrie cod", "Creează baze de date", "Compilează JS"],
+  "correctAnswer": "Execută bytecode"
+},
+{
+  "question": "Ce este JDK?",
+  "category": "Java",
+  "difficulty": "medium",
+  "answers": ["Kit de dezvoltare Java", "Motor de execuție", "Editor", "Server"],
+  "correctAnswer": "Kit de dezvoltare Java"
+},
+{
+  "question": "Ce este o clasă?",
+  "category": "Java",
+  "difficulty": "easy",
+  "answers": ["Blueprint pentru obiecte", "Funcție", "Variabilă", "Array"],
+  "correctAnswer": "Blueprint pentru obiecte"
+},
+{
+  "question": "Ce este un obiect?",
+  "category": "Java",
+  "difficulty": "easy",
+  "answers": ["Instanță a unei clase", "Funcție", "Array", "String"],
+  "correctAnswer": "Instanță a unei clase"
+},
+{
+  "question": "Ce este moștenirea?",
+  "category": "Java",
+  "difficulty": "medium",
+  "answers": ["O clasă moștenește alta", "Șterge clase", "Creează variabile", "Execută cod"],
+  "correctAnswer": "O clasă moștenește alta"
+},
+{
+  "question": "Ce este polimorfismul?",
+  "category": "Java",
+  "difficulty": "hard",
+  "answers": ["Mai multe forme ale aceleiași metode", "Un tip de variabilă", "Un array", "Un loop"],
+  "correctAnswer": "Mai multe forme ale aceleiași metode"
+},
+{
+  "question": "Ce este encapsularea?",
+  "category": "Java",
+  "difficulty": "medium",
+  "answers": ["Ascunderea datelor", "Crearea de obiecte", "Ștergerea codului", "Executarea codului"],
+  "correctAnswer": "Ascunderea datelor"
+},
+{
+  "question": "Ce este un constructor?",
+  "category": "Java",
+  "difficulty": "medium",
+  "answers": ["Metodă pentru inițializare", "Funcție statică", "Loop", "Array"],
+  "correctAnswer": "Metodă pentru inițializare"
+},
+{
+  "question": "Ce este static?",
+  "category": "Java",
+  "difficulty": "medium",
+  "answers": ["Aparține clasei", "Aparține obiectului", "Este un tip", "Este o funcție"],
+  "correctAnswer": "Aparține clasei"
+},
+{
+  "question": "Ce este final?",
+  "category": "Java",
+  "difficulty": "medium",
+  "answers": ["Nu poate fi modificat", "Poate fi modificat", "Este o funcție", "Este un array"],
+  "correctAnswer": "Nu poate fi modificat"
+},
+{
+  "question": "Ce este un array?",
+  "category": "Java",
+  "difficulty": "easy",
+  "answers": ["Colecție de valori", "Funcție", "Clasă", "String"],
+  "correctAnswer": "Colecție de valori"
+},
+{
+  "question": "Cum accesezi primul element din array?",
+  "category": "Java",
+  "difficulty": "easy",
+  "answers": ["array[0]", "array[1]", "array.first()", "array.get()"],
+  "correctAnswer": "array[0]"
+},
+{
+  "question": "Ce este System.out.println?",
+  "category": "Java",
+  "difficulty": "easy",
+  "answers": ["Afișează în consolă", "Citește date", "Șterge date", "Compilează cod"],
+  "correctAnswer": "Afișează în consolă"
+},
+{
+  "question": "Ce este try-catch?",
+  "category": "Java",
+  "difficulty": "medium",
+  "answers": ["Gestionare erori", "Loop", "Funcție", "Array"],
+  "correctAnswer": "Gestionare erori"
+},
+{
+  "question": "Ce este o excepție?",
+  "category": "Java",
+  "difficulty": "medium",
+  "answers": ["Eroare în execuție", "Variabilă", "Array", "Funcție"],
+  "correctAnswer": "Eroare în execuție"
+},
+{
+  "question": "Ce este String?",
+  "category": "Java",
+  "difficulty": "easy",
+  "answers": ["Tip pentru text", "Tip numeric", "Array", "Clasă abstractă"],
+  "correctAnswer": "Tip pentru text"
+},
+{
+  "question": "Ce este un loop?",
+  "category": "Java",
+  "difficulty": "easy",
+  "answers": ["Repetă cod", "Creează obiecte", "Șterge date", "Compilează cod"],
+  "correctAnswer": "Repetă cod"
+}
+]
